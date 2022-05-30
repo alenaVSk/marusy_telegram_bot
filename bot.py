@@ -91,5 +91,5 @@ def callback_worker(call):
         bot.send_message(call.message.chat.id, msg_motivation)
 
 
-# Запускаем постоянный опрос бота в Телеграмме
-bot.polling(none_stop=True, interval=0)
+if __name__ == '__main__':
+    bot.polling(none_stop=True, interval=0)
