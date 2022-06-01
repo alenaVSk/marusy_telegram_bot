@@ -3,9 +3,9 @@ import telebot
 from telebot import types
 
 
-bot = telebot.TeleBot('2060769460:AAHMhURnmXlOD-EZhPNk0Ir-TDFn8b6BYYM')
+bot = telebot.TeleBot('token')
 
-# Заготовки для цитат
+
 list_j = [
     "Мой друг, счастье не откладывай ни на час. Счастье надо пить свежим. А неприятность может и подождать. Р.Роллан",
     "Настроение, как у Карлсона: хочу сладкого и пошалить.",
